@@ -55,13 +55,13 @@ body{
             font-family: 'Quicksand', sans-serif;
            
         }
-        
-          #sticky-footer {
-            flex-shrink: none;
-            background: rgb(216,173,160);
-          }
-          
-        
+        #sticky-footer {
+          flex-shrink: none;
+          background: rgb(216,173,160);
+          position:relative;
+          float:left;
+          width:100%;
+        }
          
   
           @media (max-width: 767px) {

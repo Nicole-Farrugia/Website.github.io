@@ -1,125 +1,129 @@
 body{
   font-family: 'Quicksand', sans-serif;
-  
-  font-size: 25px;
+   font-size: 25px;
+}
+
+.center {
+    margin: auto;
   }
-  
-  .center {
-      margin: auto;
-    }
 
 .navbar-light .navbar-brand {
-  color:black;
-  font-family: 'Quicksand', sans-serif;
-  font-size: x-large;
-  
+color:black;
+font-family: 'Quicksand', sans-serif;
+font-size: x-large;
+
 }
 .navbar-light .navbar-nav .nav-link { 
-  color:black;
-  font-family: 'Quicksand', sans-serif;
-  font-size: large;
+color:black;
+font-family: 'Quicksand', sans-serif;
+font-size: large;
 }
-  
+
 .container {
-  width: 90%;
-  margin: 0 auto;
-  padding: 20px;
+width: 90%;
+margin: 0 auto;
+padding: 20px;
 }
 
 
 
-     .row{
-         
-      margin-right: 0 !important;
-     }
+   .row{
+       
+    margin-right: 0 !important;
+   }
 
-  
-  p{
-      padding-top: 40px;
-      text-align:left;
-      margin: auto;
-      margin-left: 5%;
-      margin-right: 30%;
-    font-size: 40px;
-     color: rgb(216,173,160);;
+
+p{
+    padding-top: 40px;
+    text-align:left;
+    margin: auto;
+    margin-left: 5%;
+    margin-right: 30%;
+   font-size: 40px;
+   color: rgb(216,173,160);;
+}
+
+
+h6{
+    text-align:left;
+    margin-left: 5%;
   }
 
+form{
+  padding-right: 50px;
+  padding-bottom: 100px;
+  margin-left: 4%;
+  background-color:white;
+  width: 97%;
+  border-radius: 1px;
+}
 
-  h6{
-      text-align:left;
-      margin-left: 5%;
-    }
- 
-  form{
-    padding-right: 50px;
-    padding-bottom: 200px;
-    margin-left: 4%;
-    background-color:white;
-    margin-right: 50%;
-  
+  .form-control{
     border-radius: 1px;
   }
-  
-    .form-control{
-      border-radius: 1px;
-    }
-  
-    #exampleFormControlTextarea1{
-        font-family: 'Quicksand', sans-serif;
-    }
-  
-    #exampleFormControlInput1{
-        font-family: 'Quicksand', sans-serif;
-    }
-  
-    #exampleFormControlTextarea2{
-        font-family: 'Quicksand', sans-serif;
-    }
-    
-    .form-group{
-      color: rgb(10, 17, 20);
-      margin-right: -200px;
-      margin-left: 10px;
-      text-align: center;
-    }
-    .button{margin-right: -200x;
-      margin-left: 200px;
-      text-align: center;
 
-    }
-    .button2:hover {
-      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    }
-    .pl-3 {
-      padding-left: 3rem !important;
-    }
-
-    h5{
-      color:white;
+  #exampleFormControlTextarea1{
       font-family: 'Quicksand', sans-serif;
-     
   }
 
-    #sticky-footer {
-      flex-shrink: none;
-      background: rgb(216,173,160);
-    }
-    
-  
-  
-          @media (max-width: 767px) {
-  
-               
-          }
-      
-       
-              
-              
-             
+  #exampleFormControlInput1{
+      font-family: 'Quicksand', sans-serif;
+  }
 
-         
-            
-             
-              
-              
-          
+  #exampleFormControlTextarea2{
+      font-family: 'Quicksand', sans-serif;
+  }
+  
+  .form-group{
+    color: rgb(10, 17, 20);
+    margin-left: 10px;
+    text-align: center;
+  }
+  .button{
+    float:right;
+    text-align: center;
+  }
+  .button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .pl-3 {
+    padding-left: 3rem !important;
+  }
+
+  h5{
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+   
+}
+
+  #sticky-footer {
+    flex-shrink: none;
+    background: rgb(216,173,160);
+    position:relative;
+    float:left;
+    width:100%;
+  }
+  
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+
+.right.image{
+    background: url('pinkdesign.jpg'); background-size: cover; width:50%; min-height: 1000px;
+}
+
+@media (max-width: 767px) {
+
+      .right{ display: none; }
+      .left{width:100%;}
+      h6 { margin-left: 6%; }
+      #sticky-footer{float:left; position:relative;}
+}
+    
