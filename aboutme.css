@@ -1,0 +1,97 @@
+body{
+  font-family: 'Quicksand', sans-serif;
+  
+  font-size: 25px;
+  }
+  
+  .center {
+      margin: auto;
+    }
+
+.navbar-light .navbar-brand {
+  color:black;
+  font-family: 'Quicksand', sans-serif;
+  font-size: x-large;
+  
+}
+.navbar-light .navbar-nav .nav-link { 
+  color:black;
+  font-family: 'Quicksand', sans-serif;
+  font-size: large;
+}
+  
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+
+     .row{
+         
+      margin-right: 0 !important;
+     }
+
+     
+   h1{
+      color: rgb(216,173,160);
+      
+    }
+   
+   h2{
+    
+     text-align: justify;
+    color: rgb(216,173,160);
+   }
+   h3{
+    color: rgb(216,173,160);
+   } 
+
+
+   
+
+      h2{
+        color: rgb(216,173,160);
+        text-align: left;
+        margin-left: 20%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 30px
+    }
+
+    
+
+
+        p{
+            font-family: 'Quicksand', sans-serif;
+            text-align: justify;
+            color:black;
+            font-size: 20px ;
+            padding-left:  10px;
+            margin-left: 5%;
+            margin-bottom: 20%;
+          
+          }
+          h5{
+            color:white;
+            font-family: 'Quicksand', sans-serif;
+           
+        }
+    
+
+          #sticky-footer {
+            flex-shrink: none;
+            background: rgb(216,173,160);
+          
+          }
+          
+        
+       
+
+        @media (max-width: 767px) {
+
+             
+        }
+    

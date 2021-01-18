@@ -1,0 +1,104 @@
+body{
+  font-family: 'Quicksand', sans-serif;
+  
+  font-size: 25px;
+  }
+  
+  .center {
+      margin: auto;
+    }
+
+.navbar-light .navbar-brand {
+  color:black;
+  font-family: 'Quicksand', sans-serif;
+  font-size: x-large;
+  
+}
+.navbar-light .navbar-nav .nav-link { 
+  color:black;
+  font-family: 'Quicksand', sans-serif;
+  font-size: large;
+}
+  
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+
+     .row{
+         
+      margin-right: 0 !important;
+     }
+
+   
+h1 {
+  color: rgb(216,173,160);;
+  font-size: 300%;
+  line-height: 50px;
+  text-align: center; 
+}
+
+.col-sm-12{
+  padding-top: 20px;}
+
+  .col-sm-12:hover {
+      -ms-transform: scale(1.05); /* IE 9 */
+      -webkit-transform: scale(1.05); /* Safari 3-8 */
+      transform: scale(1.05); 
+  }
+
+  
+  @media (max-width: 767px) {
+      .container {
+          width: 90%;
+          margin: 0 auto;
+          padding: 20px;
+      }
+  }
+
+  h1 {
+    color: rgb(216,173,160);
+    font-size: 250%;
+    margin-top: 3%;
+    line-height: 80px;
+    text-align: center; 
+  }
+  
+  .carousel-inner img {
+          margin: auto;
+          width: 40%;
+          padding: 10px;
+  }
+      
+              
+  #carouselExampleIndicators{
+          margin: auto;
+          width: 100%;
+  }
+      
+  .carousel-control-next,
+  .carousel-control-prev /*, .carousel-indicators */ {
+          filter: invert(100%);
+      }
+
+      h5{
+        color:white;
+        font-family: 'Quicksand', sans-serif;
+       
+    }
+
+      #sticky-footer {
+        flex-shrink: none;
+        background: rgb(216,173,160);
+      }
+      
+    
+
+
+@media (max-width: 767px) {
+
+     
+}
