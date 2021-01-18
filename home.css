@@ -90,7 +90,7 @@ h1 {
        
     }
 
-    #sticky-footer {
+    #footer {
       flex-shrink: none;
       background: rgb(216,173,160);
       position:relative;
