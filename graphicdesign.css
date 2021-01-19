@@ -1,5 +1,29 @@
 
-      body{
+      body,
+      html {
+          height: 100%;
+          margin: 0;
+          font-family: 'Quicksand', sans-serif;
+      }
+  
+      .hero-image {
+          background-image: url("earth.png");
+          height: 50%;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+      }
+  
+      .hero-text {
+          text-align: center;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: black;
+      }
+     body{
         font-family: 'Quicksand', sans-serif;
         
         font-size: 25px;
