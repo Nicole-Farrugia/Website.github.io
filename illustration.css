@@ -6,7 +6,7 @@ html {
 }
 
 .hero-image {
-    background-image: url("earth.png");
+    background-image: url("earth.jpg");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -94,14 +94,14 @@ html {
 
   
 h5{
-  color:white;
+  color:black;
   font-family: 'Quicksand', sans-serif;
  
 }
     
   #footer {
     flex-shrink: none;
-    background: rgb(216,173,160);
+    background: rgb(196,246,245);
     position:relative;
     float:left;
     width:100%;
